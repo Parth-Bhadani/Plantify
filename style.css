@@ -1,0 +1,1623 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ====== GENERAL START======  */
+html {
+    scroll-behavior: smooth;
+}
+
+.padding10tb {
+    padding: 10px 0px;
+}
+
+.padding10lr {
+    padding: 0px 10px;
+}
+
+.padding15lr {
+    padding: 0px 15px;
+}
+
+.padding20tb {
+    padding: 20px 0px;
+}
+
+.padding20lr {
+    padding: 0px 20px;
+}
+
+.padding20px {
+    padding: 20px;
+}
+
+.padding30tb {
+    padding: 30px 0px;
+}
+
+.padding30lr {
+    padding: 0px 30px;
+}
+
+.padding40tb {
+    padding: 40px 0px;
+}
+
+.padding40lr {
+    padding: 0px 40px;
+}
+
+.padding50tb {
+    padding: 50px 0px;
+}
+
+.padding50lr {
+    padding: 0px 50px;
+}
+
+.padding60tb {
+    padding: 60px 0px;
+
+}
+
+.padding100tb {
+    padding: 100px 0px;
+
+}
+
+.padding10020px {
+    padding: 100px 20px;
+
+}
+
+.padding120tb {
+    padding: 120px 0px;
+
+}
+
+.padding12020px {
+    padding: 120px 20px;
+
+}
+
+.padding20px {
+    padding: 20px;
+}
+
+.padding25px {
+    padding: 25px;
+}
+
+.padding150tb {
+    padding: 150px 0px;
+}
+
+.padding170tb {
+    padding: 170px 0px;
+}
+
+a {
+    display: inline-block;
+}
+
+.paddding200pxtb {
+    padding: 200px 0px;
+}
+
+.twhite {
+    color: white;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.tleft {
+    text-align: left;
+}
+
+.tright {
+    text-align: right;
+}
+
+.tdecoration {
+    text-decoration: none;
+}
+
+.overflowhidden {
+    overflow: hidden;
+}
+
+.positionabsolute {
+    position: absolute;
+}
+
+.positionrelative {
+    position: relative;
+}
+
+.positionfixed {
+    position: fixed;
+
+}
+
+.positionsticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+
+
+.objectfitcover {
+    object-fit: cover;
+}
+
+.displayflex {
+    display: flex;
+}
+
+
+.justifybetween {
+    justify-content: space-between;
+}
+
+.margin10px {
+    margin: 30px 150px;
+}
+
+.main1 {
+    max-width: 1155px;
+    margin: auto;
+}
+
+
+
+.main {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.marginbottom {
+    margin-bottom: -4px;
+}
+
+/* ====== GENERAL END   ======  */
+
+
+/*  ==================================== HEADER START ====================================  */
+
+body {
+    font-family: Inter, sans-serif;
+    color: #055346;
+}
+
+.bgskin {
+    background-image: linear-gradient(180deg, rgba(249, 239, 230, 0) 50%, #f9efe6), url(image/Bgskin.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 60px 40px;
+
+}
+
+
+.flexproperty1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logoimage {
+    width: 130px;
+}
+
+.flexproperty2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navlink {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav {
+    margin: auto;
+}
+
+.navlink li a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #055346;
+    font-weight: 500;
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+
+.findus {
+    text-decoration: none;
+    position: relative;
+}
+
+.findusdiv {
+    background-color: #055346;
+    color: #f9efe6;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    line-height: 52px;
+    padding: 0px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    transition-duration: 500ms;
+}
+
+.bordergreendiv {
+    border: 3px solid #055346;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    transition-duration: 500ms;
+}
+
+.menu {
+    text-decoration: none;
+    color: #055346;
+}
+
+.findus:hover .findusdiv {
+    transform: translate3d(10px, 10px, 10px);
+}
+
+.findus:hover .bordergreendiv {
+    transform: translate3d(-10px, -10px, -10px);
+}
+
+.navlink li {
+    transition-duration: 500ms;
+}
+
+.navlink li:hover {
+    transform: translate(0px, -4px);
+    opacity: .6;
+}
+
+.menudiv {
+    display: none;
+}
+
+.menu {
+    font-size: 30px;
+    line-height: 124px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+@media screen and (max-width:960px) {
+    .bgskin {
+        padding: 0px 30px;
+    }
+
+    .flexproperty2 {
+        position: relative;
+        justify-content: flex-end;
+
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        top: 74px;
+        right: -30px;
+        padding: 40px;
+        background-color: #f9efe6;
+        width: auto;
+        z-index: 5;
+    }
+
+    .flexproperty2:hover .dropdown {
+        display: block;
+    }
+
+    .navlink {
+        flex-direction: column;
+    }
+
+    .navlink li a {
+        display: block
+    }
+
+    .navlink li {
+        margin: 10px 0px;
+    }
+
+    .nav {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .menudiv {
+        display: block;
+    }
+
+    .findusdiv1 {
+        text-align: center;
+    }
+
+
+}
+
+/*  ==================================== HEADER END ====================================  */
+
+
+/* ====================================ALL PLANTS NO ANIMALS START====================================*/
+.flexproperty3 {
+    display: flex;
+    padding: 93px 20px;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.bgcskin {
+    background-color: #f9efe6;
+}
+
+.foodtruck {
+    display: inline-block;
+    background-color: rgba(243, 195, 149, .7);
+
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: Inter, sans-serif;
+    color: #055346;
+    padding: 8px 24px;
+    border-radius: 19px;
+}
+
+.allplants {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;
+    padding: 16px 0px;
+}
+
+
+.noanimal {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+}
+
+.lorem1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.findusdiv2 {
+    display: inline-block;
+    border: 3px solid #055346;
+    margin: 40px 0px;
+    transition-duration: 500ms;
+
+}
+
+.findus1 {
+    background-color: #055346;
+    color: #f9efe6;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    padding: 18px 48px;
+    font-weight: 500;
+    font-size: 20px;
+    transform: translate(-10px, -10px);
+    transition-duration: 500ms;
+}
+
+.findusdiv2:hover .findus1 {
+    transform: translate(10px, 10px);
+}
+
+.findusdiv2:hover {
+    transform: translate(-10px, -10px);
+
+}
+
+.padding2065px {
+    padding: 20px 37px;
+}
+
+.bgcwhite {
+    width: 90%;
+    background-color: hsla(0, 0%, 97.7%, .7);
+    transform: translate(134px, 9px) rotate(-3deg);
+    position: relative;
+
+}
+
+.foodimgtransfomproperty {
+    transform: translate(-61px, -80px)rotate(8.4deg);
+
+}
+
+.bgshape1 {
+    position: absolute;
+    /* bottom: 10px;
+    left: -66px; */
+    bottom: 66px;
+    left: -145px;
+    width: 25%
+}
+
+.bgshape2 {
+    position: absolute;
+    top: -26px;
+    right: 1px;
+    width: 25%;
+
+}
+
+
+.padding20px {
+    padding: 20px;
+}
+
+@media screen and (max-width:1320px) {
+    .bgcwhite {
+        width: 90%;
+    }
+
+    .flexproperty3 {
+        padding: 20px 20px
+    }
+
+    .bgcwhite {
+        transform: translate(61px, 20px)rotate(-3deg);
+    }
+
+    .foodimgtransfomproperty {
+        transform: translate(-39px, -63px)rotate(7.4deg);
+    }
+
+
+
+    .padding2065px {
+        padding: 0px 37px;
+    }
+
+
+}
+
+@media screen and (max-width:1150px) {
+    .padding2065px {
+        padding: 0px 18px;
+    }
+
+
+    .allplants {
+        padding: 16px 10px
+    }
+}
+
+@media screen and (max-width:1036px) {
+    .allplants {
+        font-size: 74px;
+        line-height: 67px;
+        padding: 16px 10px
+    }
+
+    .bgshape1 {
+        bottom: 67px;
+        left: -108px;
+
+    }
+}
+
+
+
+
+@media screen and (max-width:972px) {
+    .allplants {
+        font-size: 55px;
+        line-height: 67px;
+    }
+
+    .foodtruck {
+        margin: 0px;
+    }
+
+    .bgcwhite {
+        transform: translate(56px, 20px)rotate(2deg);
+    }
+
+    .foodimgtransfomproperty {
+        transform: translate(-24px, -31px)rotate(3.4deg);
+    }
+
+    .padding2065px {
+        padding: 0px 24px;
+    }
+
+    .bgshape1 {
+        bottom: 18px;
+        left: -90px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .flexproperty3 {
+        flex-wrap: wrap;
+    }
+
+    .bgcwhite {
+        transform: translate(15px, 20px)rotate(0deg);
+    }
+
+    .foodimgtransfomproperty {
+        transform: translate(6px, -5px)rotate(-1.6deg);
+    }
+
+    .w50 {
+        width: 100%;
+    }
+
+    .padding20px {
+        padding: 20px 0px;
+    }
+
+    .bgshape1 {
+        display: none;
+    }
+
+    .bgshape2 {
+        display: none;
+    }
+}
+
+
+/* ====================================ALL PLANTS NO ANIMALS END==================================== */
+
+/*  ==================================== COME SAY HELLO START ====================================  */
+.main2 {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.layer1 {
+    padding: 0px 80px;
+}
+
+.layer2 {
+    margin: 40px;
+    position: relative;
+    transform: rotate(2deg);
+
+}
+
+.bgcgreen {
+    background-color: rgba(5, 83, 70, .8);
+    padding: 72px 48px;
+}
+
+.bgimage {
+    background-image: url(image/Bgimage1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.bgshape3 {
+    position: absolute;
+    top: 0px;
+    right: -102px;
+}
+
+.bgshape4 {
+    position: absolute;
+    left: -41px;
+    bottom: 25px;
+}
+
+
+
+.flexproperty4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    transform: rotate(-2deg);
+}
+
+.comesay {
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #f9f9f9;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.hello {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.mar27 {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #f9f9f9;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 0px;
+    text-align: center;
+
+}
+
+.goldengate {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #f9f9f9;
+    font-weight: 500;
+    padding: 10px 0px;
+    text-align: center;
+
+}
+
+.fulton {
+    text-align: center;
+    color: hsla(0, 0%, 97.7%, .7);
+    text-decoration-color: hsla(0, 0%, 97.7%, .7);
+    transition-duration: 300ms;
+
+}
+
+.fulton:hover {
+    color: #f9f9f9;
+}
+
+.flexproperty5 {
+    background-color: #f3c395;
+    display: flex;
+    padding: 8px 24px;
+    border-radius: 50px;
+    margin: 24px 0px;
+}
+
+@media screen and (max-width:990px) {
+    .layer1 {
+        padding: 0px 40px;
+    }
+
+    .layer2 {
+        margin: 0px;
+        transform: rotate(0deg);
+    }
+
+    .bgshape3 {
+        display: none;
+    }
+
+    .bgshape4 {
+        display: none;
+    }
+
+    .bgcgreen {
+        padding: 53px 38px;
+    }
+
+}
+
+@media screen and (max-width:540px) {
+    .bgcgreen {
+        padding: 27px 9px;
+    }
+
+    .flexproperty4 {
+        transform: rotate(0deg);
+    }
+
+    .comesay {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:347px) {
+    .allplants {
+        font-size: 55px;
+        line-height: 67px;
+    }
+
+    .comesay {
+        font-size: 31px;
+    }
+
+    .bgcgreen {
+        padding: 25px 5px;
+    }
+
+    .layer1 {
+        padding: 0px 27px;
+    }
+}
+
+/*  ==================================== COME SAY HELLO END ====================================  */
+
+/*  ==================================== OUR MENU START ====================================  */
+.w30 {
+    width: 33.33%;
+}
+
+.w33 {
+    width: 33.33%;
+}
+
+.flexproperty6 {
+    display: flex;
+    padding: 0px 50px;
+}
+
+.ourmenu {
+    font-size: 48px;
+    font-weight: 500;
+    padding: 13px 0px;
+
+}
+
+.lorem2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+    padding: 13px 0px;
+}
+
+.layer4 {
+    display: inline-block;
+}
+
+.flexproperty7 {
+    display: flex;
+    align-items: center;
+    transition-duration: 400ms;
+}
+
+
+.arrow {
+    font-size: 30px;
+    padding: 5px 10px;
+    border: 2px solid #055346;
+    border-radius: 50%;
+    transition-duration: 400ms;
+}
+
+.viewmenu {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #f9efe6;
+    line-height: 31px;
+    transform: translate(-10px);
+
+}
+
+.flexproperty7:hover {
+    transform: translate(8px);
+}
+
+.flexproperty7:hover .arrow {
+    transform: rotatez(-45deg);
+}
+
+.menu2 {
+    text-decoration: none;
+    color: #055346;
+}
+
+.paddingtacos {
+    padding: 0px 16px;
+}
+
+.bgcwhite1 {
+    background-color: white;
+    height: 467px;
+    transition-duration: 400ms;
+    margin: 18px 0px;
+}
+
+.imgtacos {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-16px, -16px);
+    transition-duration: 400ms;
+}
+
+.paddingtacos:hover .imgtacos {
+    transform: translate(0px, 0px);
+}
+
+.paddingtacos:hover .bgcwhite1 {
+    transform: translate(-8px, -8px);
+}
+
+.flexproperty8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tacosanchor {
+    color: #055346;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0px;
+}
+
+.tacos {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.arrow1 {
+    font-size: 28px;
+    padding: 15px;
+    transition-duration: 400ms;
+}
+
+.paddingtacos:hover .arrow1 {
+    transform: rotatez(-45deg);
+}
+
+.margin72tb {
+    margin-top: 72px;
+}
+
+.margin60tb {
+    margin-top: 60px;
+}
+
+.divpositionsticky {
+    position: sticky;
+    top: 0px;
+}
+
+@media screen and (max-width:990px) {
+    .w30 {
+        width: 100%;
+    }
+
+    .w33 {
+        width: 50%;
+    }
+
+    .flexproperty6 {
+        flex-wrap: wrap;
+    }
+
+    .divpositionsticky {
+        padding: 35px 0px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .w33 {
+        width: 100%;
+    }
+
+    .flexproperty6 {
+        padding: 0px 24px;
+    }
+
+
+}
+
+/*  ==================================== OUR MENU END ====================================  */
+
+
+/*  ==================================== YOU WILL  LOVE US START ====================================  */
+
+.bgimggreen {
+    background-image: url(image/Bggreen.jpg);
+    background-size: 100% 100%;
+}
+
+.layer5 {
+    padding: 104px 0px;
+}
+
+.youwill {
+    font-size: 48px;
+    font-weight: 500;
+    color: #f9efe6;
+    text-align: center;
+    padding: 10px;
+}
+
+.italic {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.flexproperty9 {
+    display: flex;
+}
+
+.w34 {
+    width: 33.33%;
+}
+
+.leaf {
+    color: rgb(228, 215, 132);
+    font-size: 48px;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.plantbased {
+    font-size: 24px;
+    color: #f9efe6;
+    text-align: center;
+    font-weight: 500;
+    padding: 4px 0px;
+}
+
+.lorem3 {
+    font-size: 18px;
+    color: #f9efe6;
+    text-align: center;
+    font-weight: 500;
+    padding: 8px 2px;
+    line-height: 26px;
+}
+
+@media screen and (max-width:990px) {
+
+    .plantbased {
+        font-size: 20px;
+    }
+
+    .lorem3 {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .w34 {
+        width: 100%;
+    }
+
+    .flexproperty9 {
+        flex-wrap: wrap;
+    }
+
+    .layer5 {
+        padding: 35px 0px;
+    }
+}
+
+/*  ==================================== YOU WILL  LOVE US END ====================================  */
+
+
+/*  ====================================  THE BEST VEGAN COMFORT FOOD START ====================================  */
+
+.bgcskin1 {
+    background-color: #f9efe6;
+}
+
+.bgcwhite2 {
+    width: 100%;
+    background-color: hsla(0, 0%, 97.7%, .7);
+    transform: translate(-90px, 113px) rotate(3.6deg);
+    position: relative;
+}
+
+.flexproperty10 {
+    display: flex;
+    padding: 152px 0px;
+}
+
+.twotacosimgproperty {
+    width: 100%;
+    transform: translate(60px, -95px) rotate(-10.8deg);
+}
+
+.thebestdiv {
+    padding: 77px 53px;
+
+}
+
+.thebest {
+    font-size: 48px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.lorem4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+    padding: 10px 0px;
+}
+
+.bgshape5 {
+    position: absolute;
+    top: -106px;
+    right: -88px;
+    width: 25%;
+}
+
+.bgshape6 {
+    position: absolute;
+    left: 25px;
+    bottom: 64px;
+    width: 25%;
+}
+
+.padding60lr {
+    padding: 0px 80px;
+}
+
+@media screen and (max-width:1068px) {
+    .bgcwhite2 {
+        transform: translate(-70px, 28px) rotate(1.6deg);
+    }
+
+    .twotacosimgproperty {
+        transform: translate(27px, -33px) rotate(-3.8deg);
+    }
+
+    .bgshape5 {
+        top: -39px;
+        right: -52px;
+    }
+
+    .bgshape6 {
+        left: 3px;
+        bottom: 32px;
+    }
+
+
+    .thebest {
+        font-size: 40px;
+    }
+
+    .flexproperty10 {
+        padding: 51px 0px;
+    }
+
+
+    .thebestdiv {
+        padding: 0px 31px;
+    }
+
+    .lorem4 {
+        font-size: 16px;
+        padding: 20px 0px;
+        line-height: 28px;
+    }
+
+    .padding60lr {
+        padding: 20px 80px;
+    }
+}
+
+@media screen and (max-width:864px) {
+    .w50 {
+        width: 100%;
+    }
+
+    .flexproperty10 {
+        flex-wrap: wrap;
+    }
+
+    .bgshape5 {
+        display: none;
+    }
+
+    .bgshape6 {
+        display: none;
+    }
+
+
+    .thebestdiv {
+        margin: 39px 0px
+    }
+
+    .padding60lr {
+        padding: 20px 35px;
+    }
+
+    .bgcwhite2 {
+        transform: translate(-19px, 28px) rotate(1.6deg);
+    }
+
+    .twotacosimgproperty {
+        transform: translate(2px, -33px) rotate(-3.8deg);
+    }
+
+    .thebestdiv {
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .thebest {
+        font-size: 36px;
+    }
+
+    .padding60lr {
+        padding: 20px 19px;
+    }
+
+    .padding30lr {
+        padding: 0px 18px;
+    }
+}
+
+/*  ====================================  THE BEST VEGAN COMFORT FOOD END ====================================  */
+
+
+
+/*  ====================================  WHAT OTHER ARE SAYING START ====================================  */
+.layer6 {
+    padding: 104px 48px;
+}
+
+.flexproperty11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatotherdiv {
+    text-align: center;
+    width: 66.66%;
+}
+
+.lorem6 {
+    font-size: 48px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+
+.jane {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width:990px) {
+    .lorem6 {
+        font-size: 40px;
+    }
+
+    .whatotherdiv {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .lorem6 {
+        font-size: 32px;
+    }
+
+    .layer6 {
+        padding: 24px 40px;
+    }
+
+    .jane {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .layer6 {
+        padding: 24px 24px;
+    }
+}
+
+@media screen and (max-width:372px) {
+
+    .lorem6 {
+        font-size: 24px;
+
+    }
+}
+
+/*  ====================================  WHAT OTHER ARE SAYING END ====================================   */
+
+
+/*  ====================================  FOUR IMAGES START ====================================  */
+
+.main3 {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0px 25px;
+}
+
+.flexproperty12 {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 0px;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.imagediv {
+    width: 100%;
+
+}
+
+.imagewidth {
+    width: 100%;
+}
+
+.paddingw25div {
+    padding: 10px;
+}
+
+@media screen and (max-width:990px) {
+    .w25 {
+
+        width: 23%;
+    }
+
+    .flexproperty12 {
+        justify-content: space-between;
+    }
+
+    .paddingw25div {
+        padding: 0px;
+    }
+}
+
+
+/*  ====================================  FOUR IMAGES START ====================================  */
+
+/*  ====================================  COME SAY HELO START ====================================  */
+
+.bgcgreen1 {
+    background-color: #055346;
+}
+
+.layer7 {
+    padding: 72px 20px;
+}
+
+.flexproperty13 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 72px 20px;
+    border-bottom: 1px solid rgba(249, 239, 230, .5);
+}
+
+
+.comesayhello {
+    font-size: 48px;
+    font-weight: 500;
+    color: #f9efe6;
+    padding: 10px;
+}
+
+.viewweeklydiv {
+    border: 3px solid #f3c395;
+    transition-duration: 400ms;
+    margin: 10px;
+
+}
+
+.viewweekly {
+    color: #055346;
+    background-color: #f3c395;
+    text-decoration: none;
+    padding: 20px 48px;
+    transform: translate(-10px, -10px);
+    transition-duration: 400ms;
+    font-size: 20px;
+}
+
+.viewweeklydiv:hover {
+    transform: translate(-10px, -10px);
+}
+
+.viewweeklydiv:hover .viewweekly {
+    transform: translate(10px, 10px);
+}
+
+
+
+.flexproperty14 {
+    display: flex;
+    padding: 104px 48px;
+}
+
+.flexproperty15 {
+    display: flex;
+    padding: 15px 0px;
+
+}
+
+.w51 {
+    width: 50%;
+}
+
+.w35 {
+    width: 33.33%;
+}
+
+.logowhitefooter {
+    width: 130px;
+    margin: 10px 8px;
+}
+
+.smdiv a {
+    text-decoration: none;
+    color: #f9efe6;
+    font-size: 28px;
+    padding: 4px;
+    margin: 4px;
+    transition-duration: 400ms;
+
+}
+
+.smdiv a:hover {
+    transform: translate(0px, -5px);
+    color: rgba(249, 239, 230, 0.5);
+}
+
+.formdiv {
+    margin-top: 40px;
+    display: block;
+}
+
+.signlable {
+    color: #f9efe6;
+    margin: 8px 0px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.emailid {
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 280px;
+    border: 1px solid rgba(243, 195, 149, .3);
+    background-color: transparent;
+    color: #f3c395;
+    outline: none;
+
+}
+
+.emailid:focus {
+    border: 1px solid #f3c395;
+}
+
+
+.formsignup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formdiv2 {
+    display: inline-block;
+}
+
+.signup {
+    padding: 15px 20px;
+    margin-left: -5px;
+    color: #055346;
+    background-color: #f3c395;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid rgba(243, 195, 149, .3);
+    transition-duration: 400ms;
+}
+
+.signup:hover {
+    border-color: #f3c395;
+    color: #f3c395;
+    background-color: transparent;
+}
+
+.menufooter {
+    color: #f9efe6;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.w35 ul li {
+    list-style-type: none;
+}
+
+.w35 ul li a {
+    transition-duration: 500ms;
+}
+
+.w35 ul li a:hover {
+    transform: translate(5px, 0px);
+}
+
+.w35 ul li:hover .menufooter {
+    color: rgba(249, 239, 230, .8);
+}
+
+.flexproperty16 {
+    display: flex;
+    padding: 20px 20px;
+}
+
+.w66 {
+    width: 66.67%;
+}
+
+.w16 {
+    width: 16.66%;
+}
+
+.plantifyfooter {
+    font-size: 14px;
+    color: #f9efe6;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.kelvin {
+    font-size: 14px;
+    color: rgba(249, 239, 230, .5);
+    font-weight: 500;
+    transition-duration: 500ms;
+
+}
+
+.kelvin:hover {
+    color: #f9efe6;
+
+}
+
+@media screen and (max-width:995px) {
+    .comesayhello {
+        font-size: 40px
+    }
+
+    .viewweekly {
+        font-size: 20px;
+    }
+
+    .flexproperty14 {
+        flex-wrap: wrap;
+    }
+
+    .w51 {
+        width: 100%;
+    }
+
+    .formdiv {
+        width: 100%;
+    }
+
+    .emailid {
+        width: 80%;
+    }
+
+    .w16 {
+        width: 23.66%;
+    }
+}
+
+@media screen and (max-width:732px) {
+    .w16 {
+        width: 34.66%;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .signup {
+        margin-left: 0px;
+    }
+
+    .flexproperty15 {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    .w35 {
+        width: 100%;
+    }
+
+    .flexproperty16 {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .w66 {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .w16 {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .flexproperty14 {
+        padding: 41px 48px;
+        text-align: center;
+    }
+
+    .layer7 {
+        padding: 20px 20px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .comesayhello {
+        font-size: 36px
+    }
+
+    .viewweekly {
+        font-size: 18px;
+        padding: 12px 28px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .flexproperty13 {
+        flex-direction: column;
+        padding: 24px 20px;
+    }
+
+    .viewweeklydiv {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .comesayhello {
+        font-size: 30px
+    }
+
+    .viewweekly {
+        font-size: 16px;
+        padding: 12px 8px;
+    }
+}
+
+/*    ====================================  COME SAY HELO END ====================================  */
